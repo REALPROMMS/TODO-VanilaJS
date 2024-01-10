@@ -1,0 +1,141 @@
+html,
+body {
+	min-height: 100vh;
+	font-family: 'Lemon', serif;
+}
+
+body {
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url('../img/bannerTodoList.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.aside {
+	height: 400px;
+}
+
+.main {
+	height: 400px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.task-title {
+	font-weight: 400;
+	padding-top: 5px;
+}
+
+
+.card-header {
+	font-size: 30px;
+
+}
+
+.task-title--done {
+	text-decoration: line-through;
+	color: #CDCDCD;
+}
+
+.task-item__buttons {
+	display: flex;
+	column-gap: 5px;
+}
+
+.notify-holder {
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+.empty-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.empty-list__title {
+	font-size: 28px;
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+
+.empty-list__icon {
+	color: #42BE2A;
+	font-size: 32px;
+}
+
+.btn {
+	background-color: #42BE2A;
+	color: black;
+	border-radius: 15px;
+	transition: all 0.3s ease;
+}
+
+.btn:active {
+	transform: scale(0.9);
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+
+}
+
+.btn-action {
+	background-color: #e0e5ea;
+	padding: 8px 10px;
+	cursor: pointer;
+	border: 0;
+	border-radius: 4px;
+	transition: opacity 0.2s ease-in;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: all 0.3s ease;
+}
+
+
+.btn-action:hover {
+	background-color: #e0e5ea;
+	opacity: 1;
+	transform: scale(1.1);
+
+}
+
+.btn-action img {
+	pointer-events: none;
+}
+
+.none {
+	display: none !important;
+}
+
+.float-right {
+	float: right;
+}
+
+.copyright {
+	margin-top: 40px;
+	font-size: 14px;
+	color: gray;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.flow,
+.h4 {
+	color: white;
+	text-align: center;
+}
